@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react";
+
 
 import InitColorSchemeScript from "@mui/joy/InitColorSchemeScript";
 import { CssVarsProvider } from "@mui/joy/styles";
@@ -19,7 +19,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es" suppressHydrationWarning={true}>
-      <Analytics />
       <body
         className={`${inter.className} max-w-screen flex min-h-screen flex-col`}
       >
